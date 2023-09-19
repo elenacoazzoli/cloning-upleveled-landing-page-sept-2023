@@ -1,5 +1,6 @@
 import styles from './App.module.scss';
 import { ReactComponent as Logo } from './images/PolymerLogo.svg';
+import { ReactComponent as FileBase } from './images/clients/filebase.svg';
 
 export default function App() {
   return (
@@ -68,7 +69,44 @@ export default function App() {
           </div>
         </section>
         <section className={styles.secondSection}>
-          <div className={styles.container}>Section 2</div>
+          <div className={styles.container}>
+            {/* Adding second section content  */}
+            <div className={styles.secondSectionContentContainer}>
+              <p>Helping to grow the next generation of companies</p>
+              <div className={styles.customersContainer}>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+                <div className={styles.companyLogoContainer}>
+                  <FileBase />
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
         <section className={styles.thirdSection}>Section 3</section>
       </main>
