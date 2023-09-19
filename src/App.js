@@ -108,7 +108,95 @@ export default function App() {
             </div>
           </div>
         </section>
-        <section className={styles.thirdSection}>Section 3</section>
+        {/* Example of grid layout and svg directly used in code.*/}
+        <section className={styles.thirdSection}>
+          <div className={styles.container}>
+            <div>
+              <h2>
+                Everything you need <br />
+                to grow your team
+              </h2>
+            </div>
+            <div className={styles.gridContainer}>
+              <div className={styles.missionItem}>
+                <div className={styles.itemLogoContainer}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="css-178aoyv"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                    <line x1="3" y1="9" x2="21" y2="9" />
+                    <line x1="9" y1="21" x2="9" y2="9" />
+                  </svg>
+                </div>
+                <h3>Instant job board</h3>
+                <p>
+                  You'll have a branded job board as a centralized place to
+                  display all the open positions at your organization.
+                </p>
+              </div>
+
+              <div className={styles.missionItem}>
+                <div className={styles.itemLogoContainer}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="css-178aoyv"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                    <line x1="3" y1="9" x2="21" y2="9" />
+                    <line x1="9" y1="21" x2="9" y2="9" />
+                  </svg>
+                </div>
+                <h3>Instant job board</h3>
+                <p>
+                  You'll have a branded job board as a centralized place to
+                  display all the open positions at your organization.
+                </p>
+              </div>
+              <div className={styles.missionItem}>
+                <div className={styles.itemLogoContainer}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="css-178aoyv"
+                  >
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                    <line x1="3" y1="9" x2="21" y2="9" />
+                    <line x1="9" y1="21" x2="9" y2="9" />
+                  </svg>
+                </div>
+                <h3>Instant job board</h3>
+                <p>
+                  You'll have a branded job board as a centralized place to
+                  display all the open positions at your organization.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
       <footer>Footer</footer>
     </>
