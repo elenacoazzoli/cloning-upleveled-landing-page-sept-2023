@@ -1,0 +1,21 @@
+*,
+::before, ::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-gradient: linear-gradient(to bottom right, #FBD7FF 10%, #FFDEC1 80%);
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
