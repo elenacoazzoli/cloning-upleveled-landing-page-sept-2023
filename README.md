@@ -3,8 +3,10 @@
 In this project, we have copied the styling of a landing page in order to learn some basic concepts of styling and use CSS Modules and SASS.
 
 **Original landing page screenshots:**
+<img width="1510" alt="Screenshot 2023-09-19 at 10 17 22" src="https://github.com/elenacoazzoli/cloning-upleveled-landing-page-sept-2023/assets/16699231/c402c1fd-6cd7-4bd0-ab7d-7440eb130c3a">
 
 **Cloned landing page screenshots:**
+<img width="1503" alt="Screenshot 2023-09-19 at 10 17 10" src="https://github.com/elenacoazzoli/cloning-upleveled-landing-page-sept-2023/assets/16699231/a83dcd91-9298-4487-9e2d-7cdbaec231d0">
 
 ## Some useful links about topics covered:
 
