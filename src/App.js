@@ -108,6 +108,17 @@ export default function App() {
             </div>
           </div>
         </section>
+        {/* Example of absolute positioning of the quote */}
+        <div className={styles.container}>
+          <div className={styles.quoteContainerRelative}>
+            <div className={styles.quoteAbsolute}>
+              <p>
+                Beautifully simple. Incredibly easy to use but can be customized
+                to your hiring workflow and needs.
+              </p>
+            </div>
+          </div>
+        </div>
         {/* Example of grid layout and svg directly used in code.*/}
         <section className={styles.thirdSection}>
           <div className={styles.container}>
